@@ -1,0 +1,46 @@
+alias myapp="java -jar myapp.jar"
+/home/xps/Documents/shellHacks/out/artifacts/keyGen
+/home/xps/Documents/shellHacks/sample_photos/key
+
+alias keyGen='java -jar /home/xps/Documents/shellHacks/out/artifacts/keyGen/keyGen.jar'
+
+path_to_key = /home/xps/Documents/shellHacks/sample_photos/key
+
+path_to_image = /home/xps/Documents/shellHacks/sample_photos/shellhacks.png
+
+alias keyPath="/home/xps/Documents/shellHacks/sample_photos/key"
+
+alias encode="java -jar /home/xps/Documents/shellHacks/out/artifacts/encoder/encoder.jar"
+
+alias decode="java -jar /home/xps/Documents/shellHacks/out/artifacts/decoder/decoder.jar"
+
+/home/pi/fit/shellhacks/sample_photos/key
+
+key creation:
+	command: keyGen [password]
+
+decrypt: command: decrypt [a] [b] [c]
+	a) Encrypted File Path
+	b) Key Path
+	c) Decrypted Output File Name
+
+encrypt: command: encrypt [a] [b] [c]
+	a) Image File Path
+	b) Key Path
+	c) Ecrypted File Name
+
+
+alias decode="java -jar /home/pi/fit/shellhacks/out/artifacts/decoder/decoder.jar"
+
+alias encode="java -jar /home/pi/fit/shellhacks/out/artifacts/encoder/encoder.jar"
+
+alias keyGen="java -jar /home/pi/fit/shellhacks/out/artifacts/keyGen/keyGen.jar"
+
+===============================================================
+
+alias decode='java -jar /home/xps/Documents/shellHacks/out/artifacts/decoder/decoder.jar'
+
+alias encode='java -jar /home/xps/Documents/shellHacks/out/artifacts/encoder/encoder.jar'
+
+alias keyGen='java -jar /home/xps/Documents/shellHacks/out/artifacts/keyGen/keyGen.jar'
+
